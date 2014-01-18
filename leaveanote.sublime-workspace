@@ -1,0 +1,532 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"WIF",
+				"WIFEXITED"
+			],
+			[
+				"ge",
+				"sys_getpid"
+			],
+			[
+				"mi",
+				"mips_usermode"
+			],
+			[
+				"child",
+				"childproc"
+			],
+			[
+				"Mip",
+				"mips_usermode"
+			],
+			[
+				"Addre",
+				"addrspace"
+			],
+			[
+				"File",
+				"filetableCopy"
+			],
+			[
+				"Thread",
+				"thread_fork"
+			],
+			[
+				"chi",
+				"childproc"
+			],
+			[
+				"my",
+				"myfilename"
+			],
+			[
+				"file",
+				"fileDesc_copy"
+			],
+			[
+				"refe",
+				"referenceCount"
+			],
+			[
+				"add",
+				"addrspace"
+			],
+			[
+				"pid",
+				"pidarray"
+			],
+			[
+				"parent",
+				"parent_pid"
+			],
+			[
+				"proce",
+				"process_pid"
+			],
+			[
+				"exit",
+				"exitcode"
+			],
+			[
+				"OPT",
+				"OPT_A2"
+			],
+			[
+				"PID",
+				"PID_MAX"
+			],
+			[
+				"por",
+				"proceedingType"
+			],
+			[
+				"year",
+				"year"
+			],
+			[
+				"publ",
+				"publisher"
+			],
+			[
+				"a",
+				"authorname"
+			],
+			[
+				"art",
+				"articleType"
+			],
+			[
+				"star",
+				"startpage"
+			],
+			[
+				"end",
+				"endpagenull"
+			],
+			[
+				"appe",
+				"appearsinnull"
+			],
+			[
+				"nu",
+				"numbernull"
+			],
+			[
+				"vol",
+				"volumenull"
+			],
+			[
+				"app",
+				"appearsin"
+			],
+			[
+				"pub",
+				"publisher"
+			],
+			[
+				"author",
+				"authorlist"
+			],
+			[
+				"auth",
+				"authorID"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "leaveanote/leaveanote.html",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "leaveanote/leaveanote.css",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "leaveanote/client/leaveanoteclient.js",
+			"settings":
+			{
+				"buffer_size": 281,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/osama/GitHub/meteor-leaveanote/leaveanote/server/leaveanoteserver.js",
+		"/home/osama/GitHub/meteor-leaveanote/leaveanote/leaveanote.js",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/segments.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/vm/pt.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/vm/segments.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/addrspace.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/vm.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/vm/ram.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/vm/vm.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/coremap.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/vm/coremap.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/dev/generic/console.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/startup/main.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/lib/kprintf.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/proc/proc.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/lib.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/vm/kmalloc.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/vm/addrspace.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/locore/trap.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/include/vm.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/runprogram.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/thread/thread.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/loadelf.c",
+		"/home/osama/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/include/types.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/vm/dumbvm.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/include/tlb.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/thread/spinlock.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/_exit.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/fork.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/proc.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/pidtable.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/pidtable.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/syscall.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/startup/menu.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/syscall/syscall.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/thread.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/kern/wait.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/pid_management.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/include/trapframe.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/user/testbin/forktest/forktest.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/root/sys161.conf",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/arch/mips/locore/exception-mips1.S",
+		"/home/osama/GitHub/cs350-share/cs350-os161/root/testbin/forktest",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/thread/spl.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/syscall/file_syscalls.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/vnode.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/kern/syscall.h",
+		"/home/osama/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/types.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/bitmap.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/thread/synch.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/kern/errno.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/wchan.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/synch.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/spinlock.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/synchprobs/catmouse.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/kern/limits.h",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/lib/bitmap.c",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/conf/conf.kern",
+		"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/limits.h",
+		"/home/osama/oosidat-linux028/cs348/a2/testingsql.sql",
+		"/home/osama/oosidat-linux028/cs348/a2/bibauthor.sqc",
+		"/home/osama/oosidat-linux028/cs348/a2/init.sql",
+		"/home/osama/oosidat-linux028/cs348/a2/testapp1.sqc",
+		"/home/osama/oosidat-linux028/cs348/a2/testapp1.c",
+		"/home/osama/oosidat-linux028/cs348/a2/testapp1",
+		"/home/osama/GitHub/Changes_Oct30",
+		"/home/osama/oosidat-linux028/cs348/a2/compile",
+		"/home/osama/oosidat-linux028/cs348/a2/util.h",
+		"/home/osama/oosidat-linux028/cs348/a2/util.c",
+		"/home/osama/oosidat-linux028/cs348/init.sql",
+		"/home/osama/Dropbox/3B - Fall 2013/CS350/Codeanswers2.txt",
+		"/home/osama/Dropbox/3B - Fall 2013/SCI206/Midterm/Solutions",
+		"/home/osama/GitHub/notes/cs350/CS350_Notes.txt",
+		"/home/osama/Dropbox/3B - Fall 2013/SPCOM223/Informative Presentation/SPCOM 223 Presentation",
+		"/home/osama/newfile",
+		"/home/osama/viminstaller.sh",
+		"/home/osama/gitrepoclones.sh",
+		"/home/osama/Documents/globalroot.crt",
+		"/home/osama/viminstall.sh"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern",
+			"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern/include/kern",
+			"/home/osama/GitHub/cs350-share/cs350-os161/os161-1.99/kern",
+			"kern"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"});",
+			"ROUNDDOWN",
+			"getppages",
+			"state",
+			"page_state",
+			"helpcopy",
+			"bus error exception",
+			"ram.c",
+			"PADDR_TO_KVADDR",
+			"KVADDR",
+			"PADDR_T0_KVADDR",
+			"Switching to Zombie",
+			"DB_SYSCALLS_EXIT",
+			"proc_destroy",
+			"fileName",
+			"mode",
+			"flags",
+			"->;",
+			"flags",
+			"make_runnable",
+			";tf",
+			"; ",
+			"uint32_t",
+			"asm_usermode",
+			"check",
+			"tf",
+			"Fatal",
+			"ph",
+			"proc_create",
+			"newtrapframe",
+			"ProcessFinishedPrintMenu",
+			"pid_table",
+			"foc",
+			"DB_SYSFUNCTIONS",
+			"thread_ex",
+			"FILESYSCALLS",
+			"DB_",
+			"DB_FILESYSCALLS_EXIT",
+			"pidtable",
+			"common_prog",
+			"ProcessFinishedPrintMenu",
+			"publication"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"publisher"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "leaveanote/leaveanote.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "leaveanote/leaveanote.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "leaveanote/client/leaveanoteclient.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "leaveanote.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

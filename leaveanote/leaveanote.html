@@ -1,0 +1,31 @@
+<head>
+	<title>Leave A Note!</title>
+</head>
+
+<body>
+	<div class="container" id="main">
+		{{> addnote}}
+		{{> notes}}
+	</div>
+</body>
+
+
+<template name="addnote">
+ 
+  <textarea rows="2" class="input-large" name="noteInput" id="noteInput" placeholder="Add Your Note"></textarea>
+  <br/>
+  <input type="button" class="btn-info add-note" value="Add Note"/>
+</template>
+
+<template name="notes">
+	<h2>All Notes</h2>
+	{{#each items}}
+		{{> note}}
+	{{/each}}
+</template>
+
+<template name="note">
+	<div>
+		{{noteText}}
+	</div>
+</template>

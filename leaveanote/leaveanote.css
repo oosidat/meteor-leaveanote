@@ -14,7 +14,7 @@ div {
 	padding: 16px;
 }
 
-.header.notebox {
+.header {
 	width: 660px;
 	height: auto;
 	margin-left: 236px;
@@ -60,4 +60,86 @@ div {
 
 .stickynote.notebox:nth-child(5n) {
 	margin-right: 0;
+}
+
+/* media queries for responsiveness */
+
+@media(max-width:1211px){
+	#wrapper {
+		width: 928px;
+	}
+	.header {
+		width: 424px;
+	}
+
+	.stickynote.notebox {
+		height: 188px;
+		width: 188px;
+	}
+	.stickynote.notebox:nth-child(5n) {
+		margin-right: 16px;
+	}
+	.stickynote.notebox:nth-child(4n) {
+		margin-right: 0;
+	}
+}
+
+@media(max-width:985px){
+	#wrapper {
+		width: 688px;
+	}
+	.header {
+		margin-left: 0;
+		width: 656px;
+	}
+
+	.stickynote.notebox {
+		height: 186px;
+		width: 186px;
+	}
+	.stickynote.notebox:nth-child(4n) {
+		margin-right: 16px;
+	}
+	.stickynote.notebox:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+@media(max-width:755px){
+	#wrapper {
+		width: 448px;
+	}
+	.header {
+		margin-left: 0;
+		width: 416px;
+	}
+
+	.stickynote.notebox {
+		height: 184px;
+		width: 184px;
+	}
+	.stickynote.notebox:nth-child(3n) {
+		margin-right: 16px;
+	}
+	.stickynote.notebox:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+@media(max-width:515px){
+	#wrapper {
+		width: 288px;
+	}
+	.header {
+		margin-left: 0;
+		width: 256px;
+	}
+
+	.stickynote.notebox {
+		width: 256px;
+		height: auto;
+	}
+	.stickynote.notebox:nth-child(2n) {
+		margin-right: 16px;
+	}
 }

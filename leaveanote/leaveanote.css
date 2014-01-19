@@ -1,1 +1,63 @@
 /* CSS declarations go here */
+
+div {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 1164px;
+	padding: 16px;
+}
+
+.header.notebox {
+	width: 660px;
+	height: auto;
+	margin-left: 236px;
+}
+
+.inputdiv {
+	text-align: center;
+}
+
+.allnotes {
+	padding: 0;
+	margin: 0;
+}
+
+.notebox {
+	position: relative;
+	float: left;
+	padding: 16px;
+	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.1),
+		inset 0 0 3px rgba(230,230,230,0.2);
+	-moz-box-shadow: 0 2px 8px rgba(0,0,0,0.1),
+		inset 0 0 3px rgba(230,230,230,0.2);
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1),
+		inset 0 0 3px rgba(230,230,230,0.2);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.stickynote.notebox {
+	display: block;
+	margin-top: 16px;
+	margin-right: 16px;
+	height: 188px;
+	width: 188px;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-ms-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	transition: background 0.1s linear;
+	cursor: pointer;
+}
+
+.stickynote.notebox:nth-child(5n) {
+	margin-right: 0;
+}

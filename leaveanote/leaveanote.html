@@ -3,29 +3,38 @@
 </head>
 
 <body>
-	<div class="container" id="main">
-		{{> addnote}}
-		{{> notes}}
+	<div id="wrapper">
+		<div class="notebox header">
+			<div class="title">
+			Leave A Note!
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="inputdiv">
+			{{> addnote}}
+		</div>
+		<div class="clear"></div>
+		<div class="allnotes">
+			{{> notes}}
+		</div>
 	</div>
 </body>
 
 
 <template name="addnote">
- 
-  <textarea rows="2" class="input-large" name="noteInput" id="noteInput" placeholder="Add Your Note"></textarea>
-  <br/>
-  <input type="button" class="btn-info add-note" value="Add Note"/>
+	<textarea rows="2" class="input-large" name="noteInput" id="noteInput" placeholder="Leave Your Note Here!"></textarea>
+	<br/>
+	<input type="button" class="btn-info add-note" value="Add Note"/>
 </template>
 
 <template name="notes">
-	<h2>All Notes</h2>
 	{{#each items}}
-		{{> note}}
+	{{> note}}
 	{{/each}}
 </template>
 
 <template name="note">
-	<div>
+	<div class="stickynote notebox">
 		{{noteText}}
 	</div>
 </template>

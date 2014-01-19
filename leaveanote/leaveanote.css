@@ -1,5 +1,6 @@
 /* CSS declarations go here */
 body {
+	font-family: 'Exo 2', sans-serif;
 }
 
 div {
@@ -27,6 +28,42 @@ textarea {
 	width: 660px;
 	height: auto;
 	margin-left: 236px;
+}
+
+.header .header-title {
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.header .header-links {
+	width: 50%;
+	display: block;
+	float: left;
+	padding-top: 10px;
+
+}
+
+.header .header-links a{
+	font-size: 1.25em;
+	height: 32px;
+	margin-left: 64px;
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+
+.header .header-links a:hover{
+	color: blue;
+}
+
+.header .header-links a span {
+	position: absolute;
+	margin: -5px 0 0 -40px;
+	height: 32px;
+	width: 32px;
+	background-image: url('GitHub-Mark-32px.png');
+	background-repeat: no-repeat;
 }
 
 .inputdiv {

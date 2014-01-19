@@ -1,5 +1,6 @@
 <head>
 	<title>Leave A Note!</title>
+	<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -7,8 +8,14 @@
 		<div class="notebox header">
 			<div class="header-title">
 			<h1>Leave A Note!</h1>
+			A Fun Meteor Project by Osama Sidat
 			</div>
 			<div class="header-links">
+				<a href="https://github.com/oosidat/meteor-leaveanote">
+					<span></span>
+					GitHub
+				</a>
+
 			</div>
 		</div>
 		<div class="clear"></div>
@@ -35,7 +42,7 @@
 </template>
 
 <template name="note">
-	<div class="stickynote notebox {{stickyColor}}">
+	<div id= {{_id}} class="stickynote notebox {{stickyColor}}">
 		<div class="stickynote-date">
 		{{formattedDate}}
 		</div>

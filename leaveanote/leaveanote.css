@@ -1,17 +1,26 @@
 /* CSS declarations go here */
+body {
+}
 
 div {
 	margin: 0;
 	padding: 0;
 }
+
+textarea {
+	resize: none;
+}
+
 .clear {
 	clear: both;
 }
+
 #wrapper {
 	position: relative;
 	margin: 0 auto;
 	width: 1164px;
 	padding: 16px;
+	overflow: hidden;
 }
 
 .header {
@@ -21,7 +30,20 @@ div {
 }
 
 .inputdiv {
-	text-align: center;
+	width: 692px;
+	margin-left: 236px;
+	padding-top: 16px;
+}
+
+#noteInput {
+	display: inline-block;
+	width: 75%;
+	margin-right: 10px;
+}
+
+#add-note-button {
+	display: inline-block;
+	float: right;
 }
 
 .allnotes {
@@ -62,12 +84,36 @@ div {
 	margin-right: 0;
 }
 
+.stickynote-date {
+	font-size: 0.75em;
+	margin-bottom: 0.5em;
+}
+
+.stickynote-text {
+	margin-top: 0.5em;
+	font-size: 1.25em;
+}
+
+.yellowsticky {
+	background-color: #FEFD99;
+}
+.pinksticky {
+	background-color: #FEC2FC;
+}
+.bluesticky {
+	background-color: #C2F2FE;
+}
+.greensticky {
+	background-color: #CEFEC2;
+}
+
 /* media queries for responsiveness */
 
 @media(max-width:1211px){
 	#wrapper {
 		width: 928px;
 	}
+
 	.header {
 		width: 424px;
 	}
@@ -88,6 +134,7 @@ div {
 	#wrapper {
 		width: 688px;
 	}
+
 	.header {
 		margin-left: 0;
 		width: 656px;
@@ -109,6 +156,7 @@ div {
 	#wrapper {
 		width: 448px;
 	}
+
 	.header {
 		margin-left: 0;
 		width: 416px;
@@ -130,6 +178,7 @@ div {
 	#wrapper {
 		width: 288px;
 	}
+
 	.header {
 		margin-left: 0;
 		width: 256px;

@@ -5,12 +5,14 @@
 <body>
 	<div id="wrapper">
 		<div class="notebox header">
-			<div class="title">
-			Leave A Note!
+			<div class="header-title">
+			<h1>Leave A Note!</h1>
+			</div>
+			<div class="header-links">
 			</div>
 		</div>
 		<div class="clear"></div>
-		<div id="inputdiv">
+		<div class="inputdiv">
 			{{> addnote}}
 		</div>
 		<div class="clear"></div>
@@ -22,9 +24,8 @@
 
 
 <template name="addnote">
-	<textarea rows="2" class="input-large" name="noteInput" id="noteInput" placeholder="Leave Your Note Here!"></textarea>
-	<br/>
-	<input type="button" class="btn-info add-note" value="Add Note"/>
+		<textarea rows="1" class="input" name="noteInput" id="noteInput" placeholder="Leave Your Note Here!"></textarea>
+		<input type="button" id="add-note-button" class="add-note" value="Go!"/>
 </template>
 
 <template name="notes">
@@ -34,7 +35,12 @@
 </template>
 
 <template name="note">
-	<div class="stickynote notebox">
+	<div class="stickynote notebox {{stickyColor}}">
+		<div class="stickynote-date">
+		{{formattedDate}}
+		</div>
+		<div class="stickynote-text">
 		{{noteText}}
+		</div>
 	</div>
 </template>

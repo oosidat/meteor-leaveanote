@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 body {
 	font-family: 'Exo 2', sans-serif;
+	color: black;
 }
 
 div {
@@ -19,21 +20,30 @@ textarea {
 #wrapper {
 	position: relative;
 	margin: 0 auto;
-	width: 1164px;
+	width: 1036px;
 	padding: 16px;
 	overflow: hidden;
 }
 
 .header {
-	width: 660px;
-	height: auto;
-	margin-left: 236px;
+	width: 100%;
+	float: center;
 }
 
 .header .header-title {
 	width: 50%;
 	display: block;
 	float: left;
+	text-align: center;
+}
+
+.header .heading-header {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.header .heading-info {
+	font-size: 0.5em;
 }
 
 .header .header-links {
@@ -41,46 +51,43 @@ textarea {
 	display: block;
 	float: left;
 	padding-top: 10px;
-
 }
 
 .header .header-links a{
-	font-size: 1.25em;
+	font-size: 1.5em;
 	height: 32px;
-	margin-left: 64px;
-	float: right;
+	margin-left: 40%;
 	text-decoration: none;
 	color: black;
 }
 
-.header .header-links a:hover{
-	color: blue;
-}
-
 .header .header-links a span {
 	position: absolute;
-	margin: -5px 0 0 -40px;
+	margin: -2px 0 0 -40px;
 	height: 32px;
 	width: 32px;
 	background-image: url('GitHub-Mark-32px.png');
 	background-repeat: no-repeat;
 }
 
+.header .header-links a:hover{
+	color: #CCC;
+}
+
 .inputdiv {
-	width: 692px;
-	margin-left: 236px;
-	padding-top: 16px;
+	width: 100%;
+	padding-top: 32px;
 }
 
-#noteInput {
-	display: inline-block;
-	width: 75%;
-	margin-right: 10px;
+
+.add-note.button {
+	background-color: #000;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
 }
 
-#add-note-button {
-	display: inline-block;
-	float: right;
+.add-note.button:hover {
+	background-color: #CCC;
 }
 
 .allnotes {
@@ -92,11 +99,11 @@ textarea {
 	position: relative;
 	float: left;
 	padding: 16px;
-	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.1),
+	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.4),
 		inset 0 0 3px rgba(230,230,230,0.2);
-	-moz-box-shadow: 0 2px 8px rgba(0,0,0,0.1),
+	-moz-box-shadow: 0 2px 8px rgba(0,0,0,0.4),
 		inset 0 0 3px rgba(230,230,230,0.2);
-	box-shadow: 0 2px 8px rgba(0,0,0,0.1),
+	box-shadow: 0 2px 8px rgba(0,0,0,0.4),
 		inset 0 0 3px rgba(230,230,230,0.2);
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -122,13 +129,15 @@ textarea {
 }
 
 .stickynote-date {
-	font-size: 0.75em;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.7em;
 	margin-bottom: 0.5em;
 }
 
 .stickynote-text {
+	color: rgba(0, 0, 0, 0.75);
 	margin-top: 0.5em;
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 
 .yellowsticky {
@@ -146,19 +155,11 @@ textarea {
 
 /* media queries for responsiveness */
 
-@media(max-width:1211px){
+@media(max-width:1068px){
 	#wrapper {
-		width: 928px;
+		width: 832px;
 	}
 
-	.header {
-		width: 424px;
-	}
-
-	.stickynote.notebox {
-		height: 188px;
-		width: 188px;
-	}
 	.stickynote.notebox:nth-child(5n) {
 		margin-right: 16px;
 	}
@@ -167,20 +168,11 @@ textarea {
 	}
 }
 
-@media(max-width:985px){
+@media(max-width:864px){
 	#wrapper {
-		width: 688px;
+		width: 628px;
 	}
 
-	.header {
-		margin-left: 0;
-		width: 656px;
-	}
-
-	.stickynote.notebox {
-		height: 186px;
-		width: 186px;
-	}
 	.stickynote.notebox:nth-child(4n) {
 		margin-right: 16px;
 	}
@@ -189,20 +181,16 @@ textarea {
 	}
 }
 
-@media(max-width:755px){
+@media(max-width:660px){
 	#wrapper {
 		width: 448px;
 	}
 
-	.header {
-		margin-left: 0;
-		width: 416px;
+	.stickynote.notebox {
+		width: 200px;
+		height: 200px;
 	}
 
-	.stickynote.notebox {
-		height: 184px;
-		width: 184px;
-	}
 	.stickynote.notebox:nth-child(3n) {
 		margin-right: 16px;
 	}
@@ -216,9 +204,15 @@ textarea {
 		width: 288px;
 	}
 
-	.header {
-		margin-left: 0;
-		width: 256px;
+	.header .header-title {
+		width: 100%;
+		float: none;
+	}
+
+	.header .header-links {
+		margin-top: 16px;
+		width: 100%;
+		float: none;
 	}
 
 	.stickynote.notebox {

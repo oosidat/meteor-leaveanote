@@ -1,5 +1,5 @@
 Template.addnote.events({
-    'click input.add-note' : function(event){
+    'click #add-note-button' : function(event){
         event.preventDefault();
         var noteText = document.getElementById("noteInput").value;
         

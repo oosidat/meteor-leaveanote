@@ -7,8 +7,8 @@
 	<div id="wrapper">
 		<div class="notebox header">
 			<div class="header-title">
-			<h1>Leave A Note!</h1>
-			A Fun Meteor Project by Osama Sidat
+			<div class="heading-header">Leave A Note!</div>
+			<div class="info-header">A Fun Meteor Project by Osama Sidat</div>
 			</div>
 			<div class="header-links">
 				<a href="https://github.com/oosidat/meteor-leaveanote">
@@ -31,8 +31,14 @@
 
 
 <template name="addnote">
-		<textarea rows="1" class="input" name="noteInput" id="noteInput" placeholder="Leave Your Note Here!"></textarea>
-		<input type="button" id="add-note-button" class="add-note" value="Go!"/>
+		<div class="row collapse">
+			<div class="small-10 columns">
+				<input type="text" class="input" name="noteInput" id="noteInput" placeholder="Leave your note here!">
+			</div>
+			<div class="small-2 columns">
+				<a id="add-note-button" class="button postfix add-note">Add!</a>
+			</div>
+		</div>
 </template>
 
 <template name="notes">

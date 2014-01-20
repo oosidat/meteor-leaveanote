@@ -13,6 +13,10 @@ textarea {
 	resize: none;
 }
 
+footer {
+	margin-top: 100px;
+}
+
 .clear {
 	clear: both;
 }
@@ -153,6 +157,55 @@ textarea {
 	background-color: #CEFEC2;
 }
 
+.footer-info {
+	padding: 16px;
+	color: white;
+	height: 100px;
+	background-color: black;
+}
+
+.socialmedia {
+	width: 50%;
+	float: left;
+}
+
+.socialmediaicons {
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	margin: 2px;
+	
+}
+
+#fbicon {
+	background-image: url('fb-icon.png');
+	background-repeat: no-repeat;
+}
+
+#twittericon {
+	background-image: url('twitter-icon.png');
+	background-repeat: no-repeat;
+}
+#linkedinicon {
+	background-image: url('linkedin-icon.png');
+	background-repeat: no-repeat;
+}
+#githubicon {
+	background-image: url('github-icon.png');
+	background-repeat: no-repeat;
+}
+
+.attribution {
+	padding-top: 32px;
+	text-align: right;
+	width: 50%;
+	float: right;
+	font-size: 0.75em;
+}
+
+
+
+
 /* media queries for responsiveness */
 
 @media(max-width:1068px){
@@ -197,6 +250,12 @@ textarea {
 	.stickynote.notebox:nth-child(2n) {
 		margin-right: 0;
 	}
+
+	.footer-info {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
 }
 
 @media(max-width:515px){
@@ -221,5 +280,11 @@ textarea {
 	}
 	.stickynote.notebox:nth-child(2n) {
 		margin-right: 16px;
+	}
+
+	.footer-info {
+		width: 100%;
+		float: none;
+		text-align: center;
 	}
 }

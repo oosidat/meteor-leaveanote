@@ -1,7 +1,13 @@
 /* CSS declarations go here */
+
+html {
+	height: 100%;
+}
+
 body {
 	font-family: 'Exo 2', sans-serif;
 	color: black;
+	min-height: 100%;
 }
 
 div {
@@ -14,8 +20,12 @@ textarea {
 }
 
 footer {
-	margin-top: 100px;
+	position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
 }
+
 
 .clear {
 	clear: both;
@@ -87,7 +97,6 @@ footer {
 .add-note.button {
 	background-color: #000;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: bold;
 }
 
 .add-note.button:hover {
@@ -157,6 +166,9 @@ footer {
 	background-color: #CEFEC2;
 }
 
+.push {
+	height: 200px;
+}
 .footer-info {
 	padding: 16px;
 	color: white;

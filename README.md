@@ -5,7 +5,7 @@ After a few days of planning out a project that would utilize [MeteorJS](https:/
 
 Screenshot:
 
-![alt text](https://www.dropbox.com/s/mnmv9svdv4r2ktn/LeaveANote.PNG "Leave A Note Screenshot")
+![alt text](https://github.com/oosidat/meteor-leaveanote/LeaveANote.PNG "Leave A Note Screenshot")
 
 To-do (maybe?)
 --------------

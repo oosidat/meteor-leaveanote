@@ -169,6 +169,7 @@ footer {
 .push {
 	height: 200px;
 }
+
 .footer-info {
 	padding: 16px;
 	color: white;
@@ -295,8 +296,17 @@ footer {
 	}
 
 	.footer-info {
+		padding-right: 4px;
+		padding-left: 4px;
 		width: 100%;
 		float: none;
 		text-align: center;
+		height: auto;
+	}
+
+	.socialmediaicons {
+		background-size: 50px auto;
+		height: 50px;
+		width: 50px;
 	}
 }

@@ -135,6 +135,7 @@ footer {
 	-o-transition: background 0.1s linear;
 	transition: background 0.1s linear;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 .stickynote.notebox:nth-child(5n) {
@@ -148,9 +149,10 @@ footer {
 }
 
 .stickynote-text {
+	word-wrap: break-word;
 	color: rgba(0, 0, 0, 0.75);
 	margin-top: 0.5em;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .yellowsticky {

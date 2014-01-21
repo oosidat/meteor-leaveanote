@@ -3,13 +3,12 @@ Template.addnote.events({
 		event.preventDefault();
 		var noteText = $("#noteInput").val();
 
-		if (noteText == "") {
+		if (!(/\S/.test(noteText))) {
 			$("#noteInput").attr("placeholder", "No empties!");
 			console.log("Can't add an empty note!");
 		
 		} else {
-			
-			$("#noteInput").val("");
+
 			$("#noteInput").attr("placeholder", "Leave your note here!");
 			
 			Meteor.call("addNote",noteText,function(error , noteId){
@@ -17,6 +16,7 @@ Template.addnote.events({
 			});
 
 		}
+		$("#noteInput").val("");
 	}
 });
 

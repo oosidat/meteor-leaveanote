@@ -289,6 +289,10 @@ footer {
 		float: none;
 	}
 
+	.header .header-links a {
+		margin-left: 40%;
+	}
+
 	.stickynote.notebox {
 		width: 256px;
 		height: auto;
